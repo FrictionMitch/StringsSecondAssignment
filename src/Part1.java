@@ -7,6 +7,7 @@ public class Part1 {
     public int findStopCodon(String dnaString,  int startIndex, String stopCodon) {
         int currentIndex = dnaString.indexOf(stopCodon, startIndex + stopCodon.length());
         while(currentIndex != -1) {
+            int difference = currentIndex - startIndex;
 
         }
     }
