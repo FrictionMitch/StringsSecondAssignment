@@ -8,7 +8,6 @@ public class Part2 {
         while (true) {
             int currentIndex = stringB.indexOf(stringA, startIndex);
             startIndex = currentIndex + stringA.length();
-//            total++;
             if (currentIndex == -1) {
                 break;
             } else {
@@ -31,7 +30,7 @@ public class Part2 {
         System.out.printf("There are %d %s's in %s%n%n", total, A, B);
 
         A = "C";
-        B = "COCKSUCKER";
+        B = "CUCUMBER CUTTING MACHINE";
         howMany(A, B);
         System.out.printf("There are %d %s's in %s%n%n", total, A, B);
     }

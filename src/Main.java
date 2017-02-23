@@ -8,5 +8,8 @@ public class Main {
 
         Part2 part2 = new Part2();
         part2.testHowMany();
+
+        Part3 part3 = new Part3();
+        part3.test();
     }
 }
